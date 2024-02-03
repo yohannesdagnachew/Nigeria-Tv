@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "1084804670448",
-    "project_id": "yacine-eg",
-    "storage_bucket": "yacine-eg.appspot.com"
+    "project_number": "268659208663",
+    "project_id": "nigeria-tv-283b0",
+    "storage_bucket": "nigeria-tv-283b0.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1084804670448:android:caa7744e35b005478d3335",
+        "mobilesdk_app_id": "1:268659208663:android:af4a2f99ff9c054a81db92",
         "android_client_info": {
-          "package_name": "com.yacine.egypt"
+          "package_name": "com.nigeriatv.live"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAmIN6dQcXqmpgvr8p_GzKjnTcjzfirMhM"
+          "current_key": "AIzaSyCpoYYZq3u9oHLKiUN3Nzwo4R8UbJN0De8"
         }
       ],
       "services": {

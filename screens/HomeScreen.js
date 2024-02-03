@@ -24,11 +24,11 @@ import AlertSignal from "../componentes/Alert";
 
 const adUnitId = __DEV__
   ? TestIds.BANNER
-  : "ca-app-pub-8956332832407416/5899542365";
+  : "ca-app-pub-8956332832407416/5163430792";
 
 const interstitialAdUnitId = __DEV__
   ? TestIds.INTERSTITIAL
-  : "ca-app-pub-8956332832407416/5899542365";
+  : "ca-app-pub-8956332832407416/7936061655";
 
 export default function HomeScreen({ navigation, route }) {
   const [updateModal, setUpdateModal] = useState(false);
@@ -74,7 +74,7 @@ export default function HomeScreen({ navigation, route }) {
 
   const fetchData = async () => {
     try {
-      const url = "https://cloudy-turtleneck-shirt-bull.cyclic.app/api/live?app_v=2&app=1";
+      const url = "https://cloudy-turtleneck-shirt-bull.cyclic.app/api/live?app_v=2&app=2";
       // const url2 = "http://10.0.2.2:5001/api/live?app_v=1&app=1";
       const options = {
         method: "GET",

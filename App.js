@@ -89,10 +89,10 @@ export default function App() {
         <Stack.Navigator>
           <Stack.Screen name="Live" component={HomeScreen} 
           options={{
-            title: 'Yacine EG',
+            title: 'Nigeria Tv',
             headerTitleAlign: 'center',
             headerStyle: {
-              backgroundColor: '#FF0000',
+              backgroundColor: '#228B22',
             },
             headerTintColor: '#fff',
             headerTitleStyle: {

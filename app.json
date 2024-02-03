@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Yacine Egypt",
+    "name": "Nigeria Tv",
     "slug": "live-expo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -28,7 +28,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.yacine.egypt"
+      "package": "com.nigeriatv.live"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -48,6 +48,6 @@
     }
   },
   "react-native-google-mobile-ads": {
-    "android_app_id": "ca-app-pub-8956332832407416~2185079515"
+    "android_app_id": "ca-app-pub-8956332832407416~3733092766"
   }
 }
