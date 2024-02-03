@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1084804670448",
+    "project_id": "yacine-eg",
+    "storage_bucket": "yacine-eg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084804670448:android:caa7744e35b005478d3335",
+        "android_client_info": {
+          "package_name": "com.yacine.egypt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmIN6dQcXqmpgvr8p_GzKjnTcjzfirMhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
