@@ -2,7 +2,7 @@
   "expo": {
     "name": "Nigeria Tv",
     "slug": "live-expo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -23,7 +23,7 @@
     },
     "android": {
       "googleServicesFile": "./google-services.json",
-      "versionCode": 1,
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -48,6 +48,6 @@
     }
   },
   "react-native-google-mobile-ads": {
-    "android_app_id": "ca-app-pub-8956332832407416~3733092766"
+    "android_app_id": "ca-app-pub-8562038685299408~7342735524"
   }
 }

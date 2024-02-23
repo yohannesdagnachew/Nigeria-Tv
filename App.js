@@ -64,7 +64,7 @@ export default function App() {
       console.log(token.data);
   
       if(token){  
-        const url = "https://cloudy-turtleneck-shirt-bull.cyclic.app/api/notification";
+        const url = "https://sea-lion-app-wg2m6.ondigitalocean.app/api/notification";
         try {
           const response = await axios.post(url, {
             token: token.data,

@@ -13,15 +13,21 @@ import axios from "axios";
 export default function UpdateModal() {
 
    const updateHandler = async () => {
-    const url = 'https://cloudy-turtleneck-shirt-bull.cyclic.app/api/update';
+    const url = 'https://sea-lion-app-wg2m6.ondigitalocean.app/api/update?type=2';
+    // const url = 'http://10.0.2.2:5001/api/update?type=1';
     const options = {
       method: 'GET',
       headers: {
         'X-Auth-Token': 'e2b5f1d7b9a64f9a8c1c5a7d4a3f0d8b'
       }
     }
+    try {
     const response = await axios.get(url, options);
-    Linking.openURL(response.data.link)
+    Linking.openURL(response.data.link);
+
+    } catch (error) {
+      Linking.openURL('https://play.google.com/store/apps/details?id=com.nigeriatv.live');
+    }  
     
     };
 

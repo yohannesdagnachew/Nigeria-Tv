@@ -5,6 +5,14 @@ export default function MatchItem({navigation, item}) {
     
 
     const openVideoHandler = () => {
+        if(item.homeTeam.includes('Telegram')){
+            Linking.openURL("https://t.me/nigeria_tv");
+            return
+        }
+        if(item.homeTeam.includes('WhatsApp')){
+            Linking.openURL('https://whatsapp.com/channel/0029VaLRcAW9Gv7aWDjGbc3x');
+            return
+        }
         navigation.navigate('Video', {link: item.link, headers: item.headers});
     }
 
