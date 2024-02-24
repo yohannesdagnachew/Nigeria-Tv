@@ -22,7 +22,10 @@ import {
 import { useIsFocused } from "@react-navigation/native";
 import AlertSignal from "../componentes/Alert";
 
-const adUnitId = __DEV__
+
+
+export default function HomeScreen({ navigation, route }) {
+  const adUnitId = __DEV__
   ? TestIds.BANNER
   : "ca-app-pub-8562038685299408/5733785160";
 
@@ -30,10 +33,9 @@ const interstitialAdUnitId = __DEV__
   ? TestIds.INTERSTITIAL
   : "ca-app-pub-8562038685299408/1267926543";
 
-export default function HomeScreen({ navigation, route }) {
   const [updateModal, setUpdateModal] = useState(false);
   const [adCount, setAdCount] = useState(0);
-  const appVersion = 2.0;
+  const appVersion = 3.0;
   const isFocused = useIsFocused();
   const [dataList, setDataList] = useState([]);
   const [loaded, setLoaded] = useState(false);
@@ -74,7 +76,7 @@ export default function HomeScreen({ navigation, route }) {
 
   const fetchData = async () => {
     try {
-      const url = "https://sea-lion-app-wg2m6.ondigitalocean.app/api/live?app_v=3&app=2";
+      const url = "https://cloudy-turtleneck-shirt-bull.cyclic.app/api/live?app_v=5&app=2";
       // const url = "http://10.0.2.2:5001/api/live?app_v=3&app=2";
       const options = {
         method: "GET",

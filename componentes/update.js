@@ -13,7 +13,7 @@ import axios from "axios";
 export default function UpdateModal() {
 
    const updateHandler = async () => {
-    const url = 'https://sea-lion-app-wg2m6.ondigitalocean.app/api/update?type=2';
+    const url = 'https://cloudy-turtleneck-shirt-bull.cyclic.app/api/update?type=2';
     // const url = 'http://10.0.2.2:5001/api/update?type=1';
     const options = {
       method: 'GET',

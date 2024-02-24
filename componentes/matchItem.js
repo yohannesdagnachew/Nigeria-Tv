@@ -1,10 +1,14 @@
 import React from 'react'
 import { View, Text, StyleSheet, Image, Pressable} from 'react-native'
-
+import { Linking } from 'react-native';
 export default function MatchItem({navigation, item}) {
     
 
     const openVideoHandler = () => {
+        if(item.homeTeam.includes('Footy')){
+            Linking.openURL('https://play.google.com/store/apps/details?id=com.footytv.live');
+            return
+        }
         if(item.homeTeam.includes('Telegram')){
             Linking.openURL("https://t.me/nigeria_tv");
             return
